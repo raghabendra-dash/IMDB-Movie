@@ -96,6 +96,6 @@ Walk through the app's usage and demonstrate its capabilities.
 Submit your project by sharing the Render Hosting link, Github repository link and the video explanation.
 Keep in mind that this is a general guide, and you can add more features or improvements to showcase your creativity and skills.
 
-If you like my project, make sure to give a star to my repository !!
+If you like my project, make sure to give a star to my repository !!!
 
                            
