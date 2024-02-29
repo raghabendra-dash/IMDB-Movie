@@ -8,7 +8,7 @@ Git hosted Live-Link :- https://raghabendradash.github.io/IMDB-MOVIE/
 
 ## Folder Structure:-<br/>
 
-Imdb-Mini-Clone/<br/>
+IMDB-Clone/<br/>
 ├── public/ # Public directory containing static assets<br/>
 │ ├── bg1.jpg # Background image<br/>
 │ ├── favorites.js # JavaScript file for handling favorites functionality<br/>
