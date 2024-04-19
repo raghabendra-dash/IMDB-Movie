@@ -2,7 +2,7 @@
 
 ## Smaller clone of the IMDB built using OMDB-API built purely using HTML, CSS and Vanilla JS in seperate html, css and js code files.
 
-Go Live:  [Live-Link]()
+Go Live:  [Live-Link](https://6622927b9108f83361175de1--delicate-blini-420d8a.netlify.app/)
 
 ## Folder Structure:-<br/> 
 
