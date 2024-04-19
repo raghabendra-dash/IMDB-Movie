@@ -2,7 +2,7 @@
 
 ## Smaller clone of the IMDB built using OMDB-API built purely using HTML, CSS and Vanilla JS in seperate html, css and js code files.
 
-Git hosted Live-Link :- https://raghabendradash.github.io/IMDB-MOVIE/
+Go Live:  [Live-Link]()
 
 ## Folder Structure:-<br/> 
 
