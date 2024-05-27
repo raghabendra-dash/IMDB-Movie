@@ -1,28 +1,25 @@
-let movieID = localStorage.getItem("movieID"); // Get movie ID from localstorage
+let movieID = localStorage.getItem("movieID"); 
 
-const addToFavBtn = document.querySelector("#addToFav"); // Add to fav Button
+const addToFavBtn = document.querySelector("#addToFav"); 
 
-let favMovies = JSON.parse(localStorage.getItem("favMovies")); // Get details of list of movies stored in localstorage
+let favMovies = JSON.parse(localStorage.getItem("favMovies")); 
 
-const resultGrid = document.querySelector("#result-grid"); // Movie container
+const resultGrid = document.querySelector("#result-grid");
 
-// this command will run only if there is a valid movieID
+
 if (movieID) {
   getData(movieID);
 }
 
-// Load only clicked movie detail
 async function getData(movieID) {
   const result = await fetch(
     `http://www.omdbapi.com/?i=${movieID}&apikey=b2b1bcd6`
-  ); //Base URL
-  const movieDetails = await result.json(); //Converting Movie Details from server to JSON format
-  displayMovieDetails(movieDetails); //Display the movie
+  );
+  const movieDetails = await result.json(); 
+  displayMovieDetails(movieDetails); 
 }
 
-//Showing movie in the moviePage
 const displayMovieDetails = (details) => {
-  //Add movie to Page
   resultGrid.innerHTML = `
     <div class="movie-poster">
       <img src="${
@@ -50,27 +47,20 @@ const displayMovieDetails = (details) => {
   `;
 };
 
-//Set addToFav button text to "already added" if it is already there in fav-list
 if (movieID) {
   if (favMovies.includes(movieID)) {
     addToFavBtn.textContent = "Already Added To Favourites !!";
   }
 }
 
-//Favourite Button
 const addToFav = () => {
   addToFavBtn.textContent = "Added To Favourites";
 
-  //Check if movie is already added to the list
   if (favMovies.includes(movieID)) {
     addToFavBtn.textContent = "Already Added To Favourites";
   } else {
-    favMovies.push(movieID); //Add movie to favourite list
-
-    //add new favMovies data to local storage
-    localStorage.setItem("favMovies", JSON.stringify(favMovies)); //set data to localstorage
+    favMovies.push(movieID);
+    localStorage.setItem("favMovies", JSON.stringify(favMovies)); 
   }
 };
-
-//Event listeners
 addToFavBtn.addEventListener("click", addToFav);
