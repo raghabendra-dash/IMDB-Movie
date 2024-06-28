@@ -38,8 +38,6 @@ The app has been implemented using vanilla JavaScript, and it will interact with
 
 ## Introduction and stepwise guide to start & complete this project:
 
-Creating a mini IMDB clone app as described in the problem statement of the Frontend Development skill test of Coding Ninjas using vanilla JavaScript and the OMDB API requires a step-by-step approach.
-
 Below is a guide on how you can proceed with the project using the following steps:-
 
 ### 1: Set Up the Project
