@@ -1,4 +1,4 @@
-# IMDB-Mini-Clone
+# IMDB-Movie
 
 ## Built using OMDB-API using HTML, CSS and Vanilla JS.
 
