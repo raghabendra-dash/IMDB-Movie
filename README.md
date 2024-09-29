@@ -2,7 +2,7 @@
 
 ## Built using OMDB-API using HTML, CSS and Vanilla JS.
 
-Go Live:  [Live-Link](https://6622927b9108f83361175de1--delicate-blini-420d8a.netlify.app/)
+Go Live:  [Live-Link](https://imdb-clone-phi-five.vercel.app/)
 
 ## Folder Structure:-<br/> 
 
