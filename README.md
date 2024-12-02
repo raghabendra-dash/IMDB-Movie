@@ -17,7 +17,7 @@ Go Live:  [Live-Link](https://imdb-clone-phi-five.vercel.app/)
    The list of favourite movies will be made persistent, meaning it will be retained even after closing or refreshing the browser.
    Each movie in the favourites list will have a "Remove from favourites" button, allowing users to remove a movie from the list.
 
-## Short description of this App:
+## Short description about this App:
 
 The app has been implemented using vanilla JavaScript, and it will interact with the OMDB API to fetch movie data. The user interface will be designed using CSS, and it uses a CSS framework like Bootstrap to assist with styling as desired. The app's data, including the list of favourite movies, will be stored in the browser's local storage to make it persistent across sessions.
 
