@@ -69,16 +69,6 @@ Push your code to the Github repository.
 
 Using Render go to static website section after syncing render to github and then deploy this webapp using this github repo link and required settings.
 
-### Step 8: Record an Explanation Video
 
-Record a video explaining your project's features, functionality, and any creative additions you have made.
-Walk through the app's usage and demonstrate its capabilities.
-
-### Step 9: Submit the Project
-
-Submit your project by sharing the Render Hosting link, Github repository link and the video explanation.
-Keep in mind that this is a general guide, and you can add more features or improvements to showcase your creativity and skills.
-
-If you like my project, make sure to give a star to my repository !!!
 
                            
